@@ -110,7 +110,7 @@ function Command(name) {
  *
  * The `.action()` callback is invoked when the
  * command `name` is specified via __ARGV__,
- * and the remaining arguments are applied to the
+ * and the remaining arguments are supplied to the
  * function for access.
  *
  * When the `name` is "*" an un-matched command
